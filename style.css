@@ -1,0 +1,26 @@
+body {
+    background: #fefefe;
+}
+h1 {
+    color: blue;
+}
+section {
+    background: white;
+}
+h2{
+    color: lightblue;
+
+}
+body .hotpink-p {
+    color: hotpink;
+}
+
+
+article{
+    color: red;
+}
+
+#nic{
+    width: 250px;
+}
+
