@@ -1,26 +1,23 @@
 body {
     background: #fefefe;
-}
-h1 {
-    color: blue;
-}
-section {
-    background: white;
-}
-h2{
-    color: lightblue;
 
 }
-body .hotpink-p {
-    color: hotpink;
+main{
+    text-align: center;
+    margin: 10px auto;
 }
-
-
-article{
-    color: red;
+.example-div{
+    background-color: rgba(0,0,0,0.2);
+    margin: 10px auto;
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
 }
-
-#nic{
-    width: 250px;
+#secondary-box{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
 }
-
