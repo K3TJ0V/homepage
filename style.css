@@ -1,36 +1,58 @@
 body {
-    background: #fefefe;
+  background: #fefefe;
+}
+main {
+  text-align: center;
+  margin: 10px auto;
+}
+.first {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.first__paragraph{
+  overflow: auto;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  float: left;
+}
 
+.first__paragraph--heading{
+  clear: both;
 }
-main{
-    text-align: center;
-    margin: 10px auto;
+
+.second{
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  width: 300px;
+  height: 1500px;
+  overflow: auto;
+  padding: 10px;
+  box-sizing: border-box;
 }
-.example-div{
-    background-color: rgba(0,0,0,0.2);
-    margin: 10px auto;
-    width: 300px;
-    height: 200px;
-    padding: 10px;
-    box-sizing: border-box;
-    top: 10px;
-    position: sticky;
-    overflow: auto;
+
+.third{
+  background-color: crimson;
+  border-radius: 10%;
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px auto;
 }
-#secondary-box{
-    overflow: auto;
-    background-color: yellow;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    float: left;
+
+.third__paragraph{
+  background-color: rgba(128, 128, 128, 0.9);
+  border-radius: 8%;
+  padding: 15px;
 }
-.example-div-long{
-    background-color: rgba(0,0,0,0.2);
-    margin: 10px auto;
-    width: 300px;
-    height: 1500px;
-    overflow: auto;
-    padding: 10px;
-    box-sizing: border-box;
+
+.third__heading{
+  background-color: rgba(128, 128, 128, 0.9);
+  border-radius: 8%;
 }
